@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;  
+  background-position: 0, 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  width: 100%;
+
+ 
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.seccion-inicio{
+  background-color: #F2F2F2;
+  text-align: center;
+  font-size: 15pt;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #2E2E2E;
+}
+.contenedor-tarjetas{
+  background-color: #F2F2F2;
+  text-align: center;
+  font-size: 15pt;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  color: #2E2E2E;
+}
+.cardtamaño2{
+  width: 18rem;
+  background: #F2F2F2;
+}
+.tarjetas{
+  padding-bottom: 3%;
+}
+
+/**Efecto hover*/
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    background: #262626;
+    overflow: hidden;
+}
+.card .imgBx,
+.card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card .imgBx {
+    top: 0;
+    left: 0;
+}
+.card:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.card .imgBx img {
+    width: 100%;
+}
+.card .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.card:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}*/
+
+
+/**Footer*/
+
+
+.App-footer{
+  background-color: #17A2B8;
+  color: #E1E0DE;
+  padding: 10%;
+  text-align: left;
+}
+.logo-footer{
+  margin-top: 20px;
+  display: flex;
+}
+.logo-footer img {
+  width: 36px;
+  height: 36px;
+  margin-right: 5%;
+}
+.App-Sfooter{
+  height: auto;
+  background-color: black;
+  color: #E1E0DE;
+  font-size: 13pt;
+}
+
+
+
+
+
+
+@media screen and (max-width: 988px) {
+   .cardtamaño2{
+      width: 14rem;
+  }
+  
+}
