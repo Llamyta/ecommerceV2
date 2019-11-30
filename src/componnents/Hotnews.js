@@ -17,14 +17,12 @@ class Hotnews extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div  style={{ textAlign:'center', backgroundColor:'#FFC107'}} >
-                    {/**corregir padding */}
-                <section className="contenedor-tarjetas " >
-                    <div className="seccion-inicio" >
-                    <h2>Hot News</h2>
-
+               <section className="seccion" style={{backgroundColor:"#F2F2F2"}}>
+                    <div className="descripcion">
+                        <h2>Hot News</h2>
                     </div>
-                        <Container style={{paddingLeft:'4%'}}>
+                    <div className="tarjeta">
+                    <Container className="containers">
                             <Row>
                             {
                                     this.state.cards.map((cards, i) => {
@@ -38,11 +36,9 @@ class Hotnews extends React.Component {
                                 
                             </Row>
                         </Container>
-                    </section>
 
-                   
-                </div>
-
+                    </div>
+                </section>
             </React.Fragment>
         );
     }
